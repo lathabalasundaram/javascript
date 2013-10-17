@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Pie Chart</title>
+        
+        <script src="js/tab.js"></script>
+         <link rel="stylesheet" type="text/css" href="css/tab.css" />
+         
+    </head>
+    <body>
+
+<div id="tabbed_section">
+  <div id="menu">
+    <ul id="ul_tabs">
+      <li class="lh" id="t1" onClick="change('tab1')">
+    HeadTab1
+      </li>
+      <li class="lh" id="t2" onClick="change('tab2')">
+    HeadTab2
+      </li>
+      <li class="lh" id="t3" onClick="change('tab3')">
+    HeadTab3
+      </li>
+    </ul>
+  </div>
+  <div id="Display_content" onload="change('h1')">
+  </div>
+    <div id="tab1" class="content_tab">
+    content in tab1
+    </div>
+    <div id="tab2" class="content_tab">
+    content in tab2
+    </div>
+    <div id="tab3" class="content_tab">
+    content in tab3
+    </div>
+</div>
+</body>
+</html>
