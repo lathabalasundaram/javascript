@@ -1,0 +1,38 @@
+ 
+div.content_tab {
+    display:none;
+}
+#tabbed_section {
+    border: 2px solid gray;
+    width: 300px; /* width of tabbed panel */
+    }
+#menu {
+    clear: both;
+    width: 300px;
+}
+#Display_content {
+    clear: both;
+    min-height: 44px;
+    padding: 2px;
+    border: 1px solid gray;
+}
+#ul_tabs {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+.lh {
+    padding:5px;
+    background-color: gray;
+    list-style: none;
+    width: 88px;
+    height: 25px;
+    float: left;
+    border: 1px solid #FFFFFA;
+    text-align:center;
+}
+li.lh:hover {
+    background-color: white;
+    cursor: pointer;
+}
+ 
